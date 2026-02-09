@@ -141,14 +141,7 @@ pip install -r requirements.txt
 ```bash
 cd FlowCache4MAGI-1
 
-# Text-to-Video generation
-bash scripts/single_run/flowcache.sh
-
-# Image-to-Video generation
-bash scripts/single_run/flowcache_i2v.sh
-
-# Video-to-Video generation
-bash scripts/single_run/flowcache_v2v.sh
+bash scripts/single_run/flowcache_t2v.sh
 ```
 
 ### SkyReels-V2
@@ -156,14 +149,7 @@ bash scripts/single_run/flowcache_v2v.sh
 ```bash
 cd FlowCache4SkyReels-V2
 
-# Fast mode (higher speedup)
 bash run_flowcache_fast.sh
-
-# Slow mode (better quality)
-bash run_flowcache_slow.sh
-
-# With KV cache compression
-bash run_flowcache_kvcompress.sh
 ```
 
 ---
