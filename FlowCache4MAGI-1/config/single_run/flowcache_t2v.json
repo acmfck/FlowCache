@@ -57,10 +57,10 @@
         "window_size": 4,
         "fps": 24,
         "chunk_width": 6,
-        "load": "/path/to/models/MAGI-1/ckpt/magi/4.5B_distill",
-        "t5_pretrained": "/path/to/models/MAGI-1/ckpt/t5_safetensor",
+        "load": "/mnt/42_store/fck/models/MAGI-1/ckpt/magi/4.5B_distill",
+        "t5_pretrained": "/mnt/42_store/fck/models/MAGI-1/ckpt/t5",
         "t5_device": "cuda",
-        "vae_pretrained": "/path/to/models/MAGI-1/ckpt/vae",
+        "vae_pretrained": "/mnt/42_store/fck/models/MAGI-1/ckpt/vae",
         "scale_factor": 0.18215,
         "temporal_downsample_factor": 4
     },
